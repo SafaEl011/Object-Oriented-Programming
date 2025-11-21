@@ -1,0 +1,6 @@
+DROP DATABASE IF EXISTS Funn;
+
+CREATE DATABASE Funn;
+
+GRANT ALL PRIVILEGES ON funn.* TO 'funn'@'localhost';
+
